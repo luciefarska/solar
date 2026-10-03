@@ -1,42 +1,9 @@
-# Python
-__pycache__/
-*.py[cod]
-*.egg-info/
-*.egg
-build/
-dist/
-*.whl
-
-# Virtual environments
-.venv/
-venv/
-
-# Testing & type checking
-.pytest_cache/
-.mypy_cache/
-.pyright/
-htmlcov/
-.coverage
-.coverage.*
-
-# Environment & secrets
+allsolve-venv/
 .env
-!.env.default
-*.pem
-*.key
-credentials.json
-secrets.*
+__pycache__/
+*.pyc
+.pytest_cache/
+.streamlit/
 
-# IDE
-.idea/
-*.iml
-.vscode/
 
-# OS
-.DS_Store
-
-# SDK runtime cache
 .allsolve_cache/
-
-# Example outputs
-example/*/output/
